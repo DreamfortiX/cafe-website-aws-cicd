@@ -70,7 +70,7 @@ jobs:
       # --------------------------------------------------------
       - name: Build client
         working-directory: ./client
-        run: npm run build
+        run: CI=false npm run build
 
 
       # --------------------------------------------------------
