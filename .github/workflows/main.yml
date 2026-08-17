@@ -54,7 +54,7 @@ jobs:
       # --------------------------------------------------------
       - name: Install client dependencies
         working-directory: ./client
-        run: npm install
+        run: npm install --legacy-peer-deps
 
 
       # --------------------------------------------------------
@@ -62,7 +62,7 @@ jobs:
       # --------------------------------------------------------
       - name: Install server dependencies
         working-directory: ./server
-        run: npm install
+        run: npm install --legacy-peer-deps
 
 
       # --------------------------------------------------------
